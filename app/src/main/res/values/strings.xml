@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Road Sign Quiz</string>
+    <string name="button1">School Zone</string>
+    <string name="button2">Alien Crossing</string>
+    <string name="button3">Bike Lane</string>
+    <string name="button4">No Horses</string>
     <string name="welcome">Name This Sign</string>
 </resources>

@@ -26,6 +26,7 @@
 
     <ImageView
         android:id="@+id/roadSign"
+        android:src="@drawable/Bike_Lane"
         android:layout_width="match_parent"
         android:layout_height="208dp"
         android:textAlignment="textStart"
@@ -51,46 +52,49 @@
     <Button
         android:id="@+id/button1"
         style="@style/Widget.AppCompat.Button"
+        android:text="@string/button1"
         android:layout_column="0"
         android:layout_columnSpan="1"
-        android:layout_width="88dp"
-        android:layout_height="48dp"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
         android:textColor="@color/colorPrimaryDark"
         android:elevation="4dp"
         android:layout_gravity="center_vertical|center_horizontal"
         />
     <Button
         android:id="@+id/button2"
+        android:text="@string/button2"
         style="@style/Widget.AppCompat.Button"
         android:layout_column="1"
         android:layout_columnSpan="1"
-        android:layout_width="88dp"
-        android:layout_height="48dp"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
         android:textColor="@color/colorPrimaryDark"
         android:elevation="4dp"
         android:layout_gravity="center_vertical|center_horizontal"
         />
     <Button
         android:id="@+id/button3"
+        android:text="@string/button3"
         style="@style/Widget.AppCompat.Button"
         android:layout_column="0"
         android:layout_columnSpan="1"
-        android:layout_width="88dp"
-        android:layout_height="48dp"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
         android:textColor="@color/colorPrimaryDark"
         android:elevation="4dp"
         android:layout_gravity="center_vertical|center_horizontal"
         />
     <Button
         android:id="@+id/button4"
+        android:text="@string/button4"
         style="@style/Widget.AppCompat.Button"
         android:layout_column="1"
         android:layout_columnSpan="1"
-        android:layout_width="88dp"
-        android:layout_height="48dp"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
         android:textColor="@color/colorPrimaryDark"
         android:elevation="4dp"
         android:layout_gravity="center_vertical|center_horizontal"
         />
-    =
 </GridLayout>
