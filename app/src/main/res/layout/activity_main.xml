@@ -26,7 +26,7 @@
 
     <ImageView
         android:id="@+id/roadSign"
-        android:src="@drawable/Bike_Lane"
+        android:src="@drawable/bike_lane"
         android:layout_width="match_parent"
         android:layout_height="208dp"
         android:textAlignment="textStart"
