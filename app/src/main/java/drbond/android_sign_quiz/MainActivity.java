@@ -6,9 +6,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Button;
 
-
-
-
 public class MainActivity extends AppCompatActivity {
 
     private TextView answerText;
@@ -23,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         Button button2;
         Button button3;
         Button button4;
-
 
         // Map Buttons to IDs
         button1 = (Button) findViewById(R.id.button1);
@@ -52,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                answerText.setText("Right");
+                answerText.setText("Right!");
             }
         });
 
@@ -62,6 +58,4 @@ public class MainActivity extends AppCompatActivity {
                 answerText.setText("WRONG");
             }
         });
-
-
     }}
